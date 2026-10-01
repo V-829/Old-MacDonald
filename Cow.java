@@ -1,8 +1,15 @@
 public class Cow  implements Animal {
+    private String sound;
+    private String type;
+    public Cow(String type, String sound){
+        this.sound = sound;
+        this.type = type;
+    }
+   
     public String getSound(){
-       return "moo";
+       return sound;
     }
     public String getType(){
-        return "The cow";
+        return type;
     }
 }

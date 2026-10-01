@@ -1,8 +1,15 @@
 public class Chick implements Animal {
+    private String sound;
+    private String type;
+    public Chick(String type, String sound){
+        this.sound = sound;
+        this.type = type;
+    }
+   
     public String getSound(){
-        return "bawk";
+       return sound;
     }
     public String getType(){
-     return "The chicken";
+        return type;
     }
 }

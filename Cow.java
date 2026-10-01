@@ -1,8 +1,8 @@
 public class Cow  implements Animal {
     public String getSound(){
-        System.out.println("moo");
+       return "moo";
     }
     public String getType(){
-        System.out.println("The cow");
+        return "The cow";
     }
 }

@@ -1,8 +1,8 @@
 public class Pig implements Animal {
     public String getSound(){
-        System.out.println("oink");
+        return "oink";
     }
     public String getType(){
-      System.out.println("The pig");
+      return "The pig";
     }
 }

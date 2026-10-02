@@ -13,7 +13,13 @@ public class Chick implements Animal {
     }
    
     public String getSound(){
-       return sound + sound2;
+        double check = Math.random();
+        if(check<=0.5){
+       return sound;
+        }
+        else{ 
+            return sound2;
+        }
     }
     public String getType(){
         return type;

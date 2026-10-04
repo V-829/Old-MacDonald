@@ -7,6 +7,7 @@ public class Chick implements Animal {
         //uses parameter arguements to initialize instance variables
         this.sound = sound;
         this.type = type;
+        this.sound2 = sound;
     }
     //constructor of chick again, but with 3 paramaters
     public Chick(String type, String sound, String sound2){

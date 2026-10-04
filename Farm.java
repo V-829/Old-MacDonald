@@ -1,5 +1,7 @@
 public class Farm {
+   // array to store different animal objects
     private Animal [] a = new Animal[3];
+   // constructor that initializes the farm array with specific animals
  Farm () {
     a[0] = new NamedCow ("cow","moo", "Steak") ;
     a[1] = new Chick ("chick","cluck", "cheep") ;
@@ -16,4 +18,3 @@ public class Farm {
   
     }
  }
-
